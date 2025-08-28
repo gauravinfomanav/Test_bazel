@@ -1,0 +1,4 @@
+[submodule "lib/screens/screen1"]
+	path = lib/screens/screen1
+	url = https://github.com/gauravinfomanav/Screen1.git
+	branch = main
