@@ -1,0 +1,20 @@
+# Enable experimental features for Flutter
+build --experimental_platform_in_output_dir
+
+# Enable sandboxing
+build --spawn_strategy=standalone
+build --genrule_strategy=standalone
+
+# Enable caching
+build --disk_cache=~/.cache/bazel
+build --repository_cache=~/.cache/bazel-repository
+
+# Flutter specific settings
+build --define=flutter_platform=android
+build --define=flutter_arch=arm64
+
+# Verbose output for debugging
+build --verbose_failures
+
+# Enable test caching
+test --cache_test_results=yes

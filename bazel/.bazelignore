@@ -1,0 +1,40 @@
+# Flutter build artifacts
+../build/
+../.dart_tool/
+../.flutter-plugins
+../.flutter-plugins-dependencies
+../.packages
+../.pub-cache/
+../.pub/
+
+# Android build artifacts
+../android/app/build/
+../android/.gradle/
+../android/local.properties
+
+# iOS build artifacts
+../ios/build/
+../ios/Pods/
+../ios/Podfile.lock
+
+# Generated files
+../*.g.dart
+../*.freezed.dart
+../*.mocks.dart
+
+# IDE files
+../.vscode/
+../.idea/
+../*.iml
+
+# OS files
+../.DS_Store
+../Thumbs.db
+
+# Test coverage
+../coverage/
+../*.lcov
+
+# Temporary files
+../*.tmp
+../*.temp

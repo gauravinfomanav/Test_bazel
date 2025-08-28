@@ -1,0 +1,5 @@
+workspace(name = "flutter_application_1")
+
+# This is a simplified Bazel workspace for demonstration
+# In a real setup, you would include Flutter SDK and Dart SDK dependencies here
+
