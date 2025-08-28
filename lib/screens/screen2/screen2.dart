@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/screen1/lib/screen1/screen1.dart';
 import '../../utils/autosize_text.dart';
-import '../screen1/screen1.dart';
+
 import '../screen3/screen3.dart';
 
 class Screen2 extends StatelessWidget {
